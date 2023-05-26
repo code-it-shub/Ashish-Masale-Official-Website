@@ -1,0 +1,110 @@
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+      @content;
+    }
+  }
+@mixin tablet {
+    @media screen and (max-width: 1093px) and (min-width : 480px) {
+      @content;
+    }
+  }
+@mixin laptop {
+    @media screen and (max-width: 1200px) {
+      @content;
+    }
+}
+@keyframes anim {
+    0%{
+        transform: scaleY(.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.navColored{
+    background-color: white;
+    color: black;
+}
+
+.reel{
+    background-image: url('/assets/images/reel.svg');
+    background-size: 100vw;
+    @include tablet{
+        background-size: 1536px
+    }
+    object-fit: contain;
+    background-repeat: no-repeat;
+    @include mobile{
+        background-image: url('/assets/images/reelmob.svg');
+        object-fit: contain;
+        background-size: 105vw ;
+        flex-direction: column;
+        .left{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+    
+    }
+
+    
+}
+.content{
+    display: flex;
+    @include mobile{
+        display: none;
+    }
+    @include tablet{
+        display: none;
+    }
+}
+.small{
+    display: none;
+    @include tablet{
+        display: flex;
+        justify-content: center;
+    }
+    @include mobile{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+.small > .slick-slider{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    @include tablet{
+        width: 90vw;
+
+    }
+}
+.small > .slick-slider > .slick-list >.slick-track > .slick-slide{
+    display: flex;
+    justify-content: center;
+
+}
+.small > .slick-slider > .slick-list >.slick-track > .slick-slide > div{
+    width: 74%;
+    @include tablet{
+        width: 95%;
+    }
+}
+
+.navbar{
+    .closeMenu{
+        display: none;
+    }
+    .openMenu{
+        display: flex;
+        animation: anim;
+        animation-duration: .5s;
+        animation-timing-function: ease-out
+
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+  }

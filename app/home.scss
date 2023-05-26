@@ -1,0 +1,55 @@
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+      @content;
+    }
+  }
+@mixin tablet {
+    @media screen and (max-width: 1093px) and (min-width : 480px) {
+      @content;
+    }
+  }
+@mixin laptop {
+    @media screen and (max-width: 1200px) {
+      @content;
+    }
+}
+body{
+    overflow-x: hidden
+}
+.video{
+    box-shadow: 0 0 200px rgba(0,0,0,0.4) inset;
+}
+.roadmap{
+    background-image: url('/assets/images/roadback.svg');
+    background-size: 1536px;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    @include mobile{
+        background-image: url('/assets/images/roadmob.svg');
+        object-fit: cover;
+        background-size: 115vw;
+        background-position-x: -27px;
+        .image1{
+            display: none;
+        }
+    }
+    @include tablet{
+        .mob{
+            display: none;
+        }
+    }
+}
+.para{
+    @include mobile{
+        display: none;
+    }
+}
+.mobpara{
+    @include tablet{
+        display: none;
+    }
+}
+
+::-webkit-scrollbar{
+    display: none;
+  }

@@ -1,0 +1,32 @@
+{
+    "kitchenMasale": [
+        {
+            "name": "product1",
+            "imageUrl": "url"
+        },
+        {
+            "name": "product2",
+            "imageUrl": "url"
+        }
+    ],
+    "snacksandkachri": [
+        {
+            "name": "product1",
+            "imageUrl": "url"
+        },
+        {
+            "name": "product2",
+            "imageUrl": "url"
+        }
+    ],
+    "namkeen": [
+        {
+            "name": "product1",
+            "imageUrl": "url"
+        },
+        {
+            "name": "product2",
+            "imageUrl": "url"
+        }
+    ]
+}
