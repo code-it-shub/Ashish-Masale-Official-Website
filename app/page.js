@@ -10,8 +10,9 @@ import { useEffect } from "react";
 import AOS from "aos";
 import Footer from "@components/Footer";
 import "aos/dist/aos.css";
+import dynamic from "next/dynamic";
 
-export default function Home() {
+const Home = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -40,7 +41,7 @@ export default function Home() {
         <div className="mob lg:md:hidden mb-10">
           <div className="w-screen flex flex-col justify-center items-center">
             <section className="flex flex-col items-center">
-              <Image src="/assets/images/1.svg" width={128} height={128} data-aos="fade-up"/>
+              <Image src="/assets/images/1.svg" width={128} height={128} data-aos="fade-up " alt="image"/>
               <small className="flex flex-col items-center text-center mt-[15px] " data-aos="fade-up">
                 <h1 className="font-semibold text-[24px]" >Sourcing</h1>
                 <small className="w-[332px] text-[14px] mt-[6px]">
@@ -53,11 +54,11 @@ export default function Home() {
             </section>
           </div>
           <div className="arrow flex justify-center my-6" data-aos="fade-up">
-            <Image src="/assets/images/Arrow.svg" height={60} width={30}/>
+            <Image src="/assets/images/Arrow.svg" height={60} width={30} alt="image"/>
           </div>
           <div className="w-screen flex flex-col justify-center items-center">
             <section className="flex flex-col items-center">
-              <Image src="/assets/images/2.svg" width={128} height={128} data-aos="fade-up"/>
+              <Image src="/assets/images/2.svg" width={128} height={128} data-aos="fade-up" alt="image"/>
               <small className="flex flex-col items-center text-center mt-[15px] "data-aos="fade-up">
                 <h1 className="font-semibold text-[24px]">Sorting</h1>
                 <small className="w-[332px] text-[14px] mt-[6px]">
@@ -69,12 +70,12 @@ export default function Home() {
               </small>
             </section>
           </div>
-          <div className="arrow flex justify-center my-6" data-aos="fade-up">
-            <Image src="/assets/images/Arrow.svg" height={60} width={30}/>
+          <div className="arrow flex justify-center my-6" data-aos="fade-up" >
+            <Image src="/assets/images/Arrow.svg" height={60} width={30} alt="im"/>
           </div>
           <div className="w-screen flex flex-col justify-center items-center">
             <section className="flex flex-col items-center">
-              <Image src="/assets/images/3.svg" width={128} height={128} data-aos="fade-up"/>
+              <Image src="/assets/images/3.svg" width={128} height={128} data-aos="fade-up" alt="image"/>
               <small className="flex flex-col items-center text-center mt-[15px] "data-aos="fade-up">
                 <h1 className="font-semibold text-[24px]">Grinding</h1>
                 <small className="w-[332px] text-[14px] mt-[6px]">
@@ -88,11 +89,11 @@ export default function Home() {
             </section>
           </div>
           <div className="arrow flex justify-center my-6" data-aos="fade-up">
-            <Image src="/assets/images/Arrow.svg" height={60} width={30}/>
+            <Image src="/assets/images/Arrow.svg" height={60} width={30} alt="ima"/>
           </div>
           <div className="w-screen flex flex-col justify-center items-center">
             <section className="flex flex-col items-center">
-              <Image src="/assets/images/4.svg" width={128} height={128} data-aos="fade-up"/>
+              <Image src="/assets/images/4.svg" width={128} height={128} data-aos="fade-up" alt="im"/>
               <small className="flex flex-col items-center text-center mt-[15px] " data-aos="fade-up">
                 <h1 className="font-semibold text-[24px]">Roasting</h1>
                 <small className="w-[332px] text-[14px] mt-[6px]">
@@ -105,11 +106,11 @@ export default function Home() {
             </section>
           </div>
           <div className="arrow flex justify-center my-6" data-aos="fade-up">
-            <Image src="/assets/images/Arrow.svg" height={60} width={30}/>
+            <Image src="/assets/images/Arrow.svg" height={60} width={30} alt="im"/>
           </div>
           <div className="w-screen flex flex-col justify-center items-center">
             <section className="flex flex-col items-center">
-              <Image src="/assets/images/5.svg" width={128} height={128} data-aos="fade-up" />
+              <Image src="/assets/images/5.svg" width={128} height={128} data-aos="fade-up" alt="ima" />
               <small className="flex flex-col items-center text-center mt-[15px] " data-aos="fade-up">
                 <h1 className="font-semibold text-[24px]">Packaging</h1>
                 <small className="w-[332px] text-[14px] mt-[6px]">
@@ -234,3 +235,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default dynamic (() => Promise.resolve(Home), {ssr: false})

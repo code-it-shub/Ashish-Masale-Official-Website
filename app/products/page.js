@@ -6,7 +6,7 @@ import Footer from "@components/Footer";
 const page = () => {
   return (
     <div className="flex justify-center flex-col items-center w-screen overflow-x-hidden">
-      <div class="grid lg:grid-cols-3 md:grid-cols-2 mx-auto gap-6 mt-[170px] mb-10 ">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 mx-auto gap-6 mt-[170px] mb-10 ">
         <div className="flex justify-center">
           <Link href='products/kitchenMasale' className="flex justify-center"
           >
@@ -16,7 +16,7 @@ const page = () => {
                   height={370}
                   width={370}
                   alt="Kitchen Masala"
-                  className="rounded-xl hover:scale-150 hover:shadow-[inset_0_-2px_4px_rgba(0,0,0,0.9)] transition-all duration-[3s] ease-out"
+                  className="rounded-xl hover:scale-150 hover:shadow-[inset_0_-2px_4px_rgba(0,0,0,0.9)] transition-all duration-[3s] ease-out w-auto"
                 />
                 <small className="text-[39px] font-semibold absolute top-[40%] "><h1 >Kitchen Masala</h1></small>
             </div>
@@ -34,7 +34,7 @@ const page = () => {
               height={370}
               width={370}
               alt="Snaks and kachri masale"
-              className="rounded-xl hover:scale-150  transition-all duration-[3s] ease-out"
+              className="rounded-xl hover:scale-150  transition-all duration-[3s] ease-out "
             />
             <small className="text-[39px] font-semibold absolute top-[40%] p-1 "><h1 >Snacks And Kachri Masale</h1></small>
           </div>
@@ -49,7 +49,7 @@ const page = () => {
               height={370}
               width={370}
               alt="Namkeen masale"
-              className="rounded-xl hover:scale-150 transition-all duration-[3s] ease-out"
+              className="rounded-xl hover:scale-150 transition-all duration-[3s] ease-out "
             />
             <small className="text-[39px] font-semibold absolute top-[40%] p-1 "><h1 >Namkeen</h1></small>
           </div>
@@ -94,7 +94,7 @@ const page = () => {
               height={370}
               width={370}
               alt="Chips Masala"
-              className="rounded-xl hover:scale-150 transition-all duration-[3s] ease-out"
+              className="rounded-xl hover:scale-150 transition-all duration-[3s] ease-out "
             />
             <small className="text-[39px] font-semibold absolute top-[40%] p-1 "><h1 >Chips Masale</h1></small>
           </div>
