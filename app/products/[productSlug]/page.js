@@ -11,7 +11,6 @@ const page = () => {
   const pathname = usePathname();
   const path = pathname.split("/")[2];
   const set = JSON.parse(data)[path];
-  console.log(set)
   return (
     <div className="flex justify-center flex-col items-center w-screen overflow-hidden">
       <div className="w-screen lg:h-[600px] md:h-[300px] h-[100px]">

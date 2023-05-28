@@ -1,32 +1,382 @@
-{
-    "kitchenMasale": [
-        {
-            "name": "product1",
-            "imageUrl": "url"
-        },
-        {
-            "name": "product2",
-            "imageUrl": "url"
-        }
-    ],
-    "snacksandkachri": [
-        {
-            "name": "product1",
-            "imageUrl": "url"
-        },
-        {
-            "name": "product2",
-            "imageUrl": "url"
-        }
-    ],
-    "namkeen": [
-        {
-            "name": "product1",
-            "imageUrl": "url"
-        },
-        {
-            "name": "product2",
-            "imageUrl": "url"
-        }
-    ]
-}
+    {
+        "kitchenMasale": [
+            {
+                "name": "Anardana",
+                "imageUrl": "/assets/products/anardana.png"
+            },
+            {
+                "name": "Biryani",
+                "imageUrl": "/assets/products/biryani.png"
+            },
+            {
+                "name": "chana",
+                "imageUrl": "/assets/products/channa.png"
+            },
+            {
+                "name": "chowmein",
+                "imageUrl": "/assets/products/chowmein.png"
+            },
+            {
+                "name": "chat",
+                "imageUrl": "/assets/products/chat.png"
+            },
+            {
+                "name": "Daalka masala",
+                "imageUrl": "/assets/products/dalkamasala.png"
+            },
+            {
+                "name": "Degi mirchhh",
+                "imageUrl": "/assets/products/degimirchhh.png"
+            },
+            {
+                "name": "Garam masala",
+                "imageUrl": "/assets/products/garammasala.png"
+            },
+            {
+                "name": "Golgappe",
+                "imageUrl": "/assets/products/golgappe.png"
+            },
+            {
+                "name": "Jaljeera",
+                "imageUrl": "/assets/products/jaljeera.png"
+            },
+            {
+                "name": "Kalimirch",
+                "imageUrl": "/assets/products/kalimirch.png"
+            },
+            {
+                "name": "Kashmirilal mirch",
+                "imageUrl": "/assets/products/kashmirilalmirch.png"
+            },
+            {
+                "name": "Kitchen king",
+                "imageUrl": "/assets/products/kitchenking.png"
+            },
+            {
+                "name": "Pasta",
+                "imageUrl": "/assets/products/pasta.png"
+            },
+            {
+                "name": "Pavbhaji",
+                "imageUrl": "/assets/products/pavbhaji.png"
+            },
+            {
+                "name": "Pilimirch",
+                "imageUrl": "/assets/products/pilimirch.png"
+            },
+            {
+                "name": "Raita",
+                "imageUrl": "/assets/products/raita.png"
+            },
+            {
+                "name": "Safed Mirch",
+                "imageUrl": "/assets/products/safedmirch.png"
+            },
+            {
+                "name": "Sambhar",
+                "imageUrl": "/assets/products/sambhar.png"
+            },
+            {
+                "name": "Sauf",
+                "imageUrl": "/assets/products/sauf.png"
+            },
+            {
+                "name": "Shahipaneer",
+                "imageUrl": "/assets/products/shahipaneer.png"
+            },
+            {
+                "name": "Sont",
+                "imageUrl": "/assets/products/sonth.png"
+            }
+        ],
+        "snacksandkachri": [
+            {
+                "name": "Noodles",
+                "imageUrl": ""
+            },
+            {
+                "name": "Thai chili(Peri Peri)",
+                "imageUrl": ""
+            },
+            {
+                "name": "Punjabi tadka",
+                "imageUrl": ""
+            },
+            {
+                "name": "Tomato Fry",
+                "imageUrl": ""
+            },
+            {
+                "name": "Lehsun Fry",
+                "imageUrl": ""
+            },
+            {
+                "name": "Franky Pasta tadka",
+                "imageUrl": ""
+            },
+            {
+                "name": "Penny Pasta",
+                "imageUrl": ""
+            },
+            {
+                "name": "Chilly Pasta",
+                "imageUrl": ""
+            },
+            {
+                "name": "Aam Achari",
+                "imageUrl": ""
+            },
+            {
+                "name": "Nimbu Achari",
+                "imageUrl": ""
+            },
+            {
+                "name": "Sweet Onion",
+                "imageUrl": ""
+            },
+            {
+                "name": "Sweet Garlic",
+                "imageUrl": ""
+            },
+            {
+                "name": "Spicy Onion",
+                "imageUrl": ""
+            },
+            {
+                "name": "Mad Angles",
+                "imageUrl": ""
+            },
+            {
+                "name": "Pasta Kabab",
+                "imageUrl": ""
+            },
+            {
+                "name": "M.G 2 Masala ",
+                "imageUrl": ""
+            },
+            {
+                "name": "Magic Masala",
+                "imageUrl": ""
+            },
+            {
+                "name": "Cocktail Masala",
+                "imageUrl": ""
+            },
+            {
+                "name": "Chili Chowmein",
+                "imageUrl": ""
+            },
+            {
+                "name": "Jeera Papad",
+                "imageUrl": ""
+            },
+            {
+                "name": "Nimbu Daal",
+                "imageUrl": ""
+            }
+        ],
+        "polamasala": [
+            {
+                "name": "MM Masala",
+                "imageUrl": ""
+            },
+            {
+                "name": "MM Red Pola",
+                "imageUrl": ""
+            },
+            {
+                "name": "MM Masala",
+                "imageUrl": ""
+            },
+            {
+                "name": "Chatpata Pola",
+                "imageUrl": ""
+            },
+            {
+                "name": "Sweet Pola",
+                "imageUrl": ""
+            },
+            {
+                "name": "Magic Pola",
+                "imageUrl": ""
+            },
+            {
+                "name": "PT Pola",
+                "imageUrl": ""
+            }
+        ],
+        "krsticksmasale": [
+            {
+                "name": "Magic 2 KR Sticks",
+                "imageUrl": ""
+            },
+            {
+                "name": "TDMD KR Sticks",
+                "imageUrl": ""
+            },
+            {
+                "name": "Tomato KR Sticks",
+                "imageUrl": ""
+            },
+            {
+                "name": "Munch KR Sticks",
+                "imageUrl": ""
+            },
+            {
+                "name": "KKH KR Sticks",
+                "imageUrl": ""
+            },
+            {
+                "name": "Magic-P KR Sticks",
+                "imageUrl": ""
+            }
+        ],
+        "chipsmasale": [
+            {
+                "name": "Tangy Tomato",
+                "imageUrl": ""
+            },
+            {
+                "name": "Chilli Masala",
+                "imageUrl": ""
+            },
+            {
+                "name": "Masala Magic",
+                "imageUrl": ""
+            },
+            {
+                "name": "Creamy Onion",
+                "imageUrl": ""
+            },
+            {
+                "name": "Salty Butter",
+                "imageUrl": ""
+            },
+            {
+                "name": "Podina",
+                "imageUrl": ""
+            }
+        ],
+        "dehydratedmasale": [
+            {
+                "name": "Garlic Powder",
+                "imageUrl": ""
+            },
+            {
+                "name": "Onion Powder",
+                "imageUrl": ""
+            },
+            {
+                "name": "Tomato Powder",
+                "imageUrl": ""
+            },
+            {
+                "name": "Potato Flakes",
+                "imageUrl": ""
+            }
+        ],
+        "popcornmasale": [
+            {
+                "name": "Tangy Tomato",
+                "imageUrl": ""
+            },
+            {
+                "name": "Chilli Tomato",
+                "imageUrl": ""
+            },
+            {
+                "name": "Masala Magic",
+                "imageUrl": ""
+            },
+            {
+                "name": "Butter Popcorn",
+                "imageUrl": ""
+            },
+            {
+                "name": "Podina",
+                "imageUrl": ""
+            },
+            {
+                "name": "Chinese (MGP)",
+                "imageUrl": ""
+            }
+        ],
+        "namkeen": [
+            {
+                "name": "Navratan Red Mixture",
+                "imageUrl": ""
+            },
+            {
+                "name": "Navratan Mixture",
+                "imageUrl": ""
+            },
+            {
+                "name": "Heeng Mixture",
+                "imageUrl": ""
+            },
+            {
+                "name": "Gadbad Mixture",
+                "imageUrl": ""
+            },
+            {
+                "name": "Aloo Bhujia",
+                "imageUrl": ""
+            },
+            {
+                "name": "Mixture Masala",
+                "imageUrl": ""
+            },
+            {
+                "name": "Matar Masala",
+                "imageUrl": ""
+            },
+            {
+                "name": "Heeng Chatni",
+                "imageUrl": ""
+            },
+            {
+                "name": "Heeng Jeera",
+                "imageUrl": ""
+            },
+            {
+                "name": "Punjabi Tadka Magic",
+                "imageUrl": ""
+            },
+            {
+                "name": "Red Tasty",
+                "imageUrl": ""
+            },
+            {
+                "name": "Yellow Tasty",
+                "imageUrl": ""
+            },
+            {
+                "name": "Chana Dal",
+                "imageUrl": ""
+            },
+            {
+                "name": "Chaat Masala",
+                "imageUrl": ""
+            },
+            {
+                "name": "Jeera Papad",
+                "imageUrl": ""
+            },
+            {
+                "name": "Kashmiri Mirch",
+                "imageUrl": ""
+            },
+            {
+                "name": "Kashmiri Mirch",
+                "imageUrl": ""
+            },
+            {
+                "name": "Garlic Bhelpuric",
+                "imageUrl": ""
+            },
+            {
+                "name": "Special Bhelpuri",
+                "imageUrl": ""
+            }
+        ]
+    }
