@@ -13,18 +13,25 @@ const page = () => {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = async(e) =>{
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    try{
-        const res = await fetch('/api/hello', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({ 
-            name,email,message,city,state,country,querytype,phone
-           }),
-        }); 
+    try {
+      const res = await fetch("/api/hello", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          message,
+          city,
+          state,
+          country,
+          querytype,
+          phone,
+        }),
+      });
       // const res= await fetch('/api/contact', {
       //   method: 'POST',
       //   body : JSON.stringify({
@@ -34,12 +41,11 @@ const page = () => {
       //     'content-type' : 'application/json',
       //   }
       // })
+      alert("Form submitted");
+    } catch {
+      console.error;
     }
-    catch{
-      console.error
-    }
-    
-  }
+  };
 
   return (
     <div className="flex flex-col justify-center items-center w-screen ">
