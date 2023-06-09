@@ -16,7 +16,7 @@ export async function POST(request) {
 
   const messageData = {
     from: body.email,
-    to: "shubhamprakash8991@gmail.com",
+    to: "Recipeashishmasale@gmail.com",
     subject: "Contact form Query",
     text: `Hello, you have a notification from the ${body.name} from ${body.country} ${body.state} ${body.city}
     phone Number : ${body.phone}
