@@ -67,7 +67,7 @@ const page = () => {
             <section>
               <small className="lg:md:py-3 py-2">
                 <h2 className="lg:md:text-[20px] text-[17px] font-semibold">
-                  Ashish Masala
+                  Ashish Masale
                 </h2>
               </small>
               <small>
